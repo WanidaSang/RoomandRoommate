@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+    <center>
+        <img src="~/images/searchDormitory.png" alt="searchDormitory" width="180" height="180">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <img src="~/images/searchRoommate.png" alt="searchRoommateOnly" width="180" height="180">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <img src="~/images/searchRoommateAndHaveRoommmate.png" alt="searchRoommateAndHaveRoommmate" width="180" height="180">
+
+
+        <br />
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <a href="@Url.Action("Index","Room")">ค้นหาหอพัก</a>
+
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <a href="@Url.Action("Login","Home")">ค้นหาเพื่อนร่วมห้องเท่านั้น</a>
+
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <a href="@Url.Action("Login","Home")">ค้นหาเพื่อนร่วมห้องและมีห้องพักแล้ว</a>
+        
+    </center>

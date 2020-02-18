@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "AdminIndex";
+}
+
+<h1>Admin</h1>
+
+<div>
+    @using (Html.BeginForm("SignIn", "Home", FormMethod.Post))
+    {
+        <label for="uname">ชื่อหอพัก: </label>
+        <input name="nameDormitory" type="text" />
+        <br />
+        <label for="uname">ราคาห้องพัก: </label>
+        <input name="priceDormitory" type="text" />
+        <br />
+        <label for="uname">ค่าประกันหอพัก: </label>
+        <input name="InsurancefeeDormitory" type="text" />
+        <br />
+        <label for="uname">สามารถอยู่ได้(จำนวนคน): </label>
+        <input name="people" type="text" />
+        <br />
+        <label for="uname">ค่าน้ำ: </label>
+        <input name="Waterbill" type="text" />
+        <br />
+        <label for="uname">ค่าไฟ: </label>
+        <input name="Electricitybill" type="text" />
+        <br />
+        <label for="uname">ที่อยู่: </label>
+        <input name="address" type="text" />
+        <br />
+        <label for="uname">เบอร์โทร: </label>
+        <input name="phoneNumber" type="text" />
+        <br />
+        <label for="uname">Facebook: </label>
+        <input name="facebook" type="text" />
+        <br />
+        <label for="uname">Email: </label>
+        <input name="email" type="text" />
+        <br />
+        <p>กรุณาอัพโหลดรูปภาพหอพักของคุณ :</p>
+        <input type="file" id="myFile" name="filename">
+        <br />
+
+
+
+        <br />
+        <button name="btnSave" type="submit">บันทึก</button>
+        <button name="btnClear" type="reset">ยกเลิก</button>
+    }
+
+</div>

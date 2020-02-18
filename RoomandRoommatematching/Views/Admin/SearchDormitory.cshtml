@@ -1,0 +1,33 @@
+﻿@using RoomandRoommatematching.Models
+@using System.Data
+@{
+
+    ViewData["Title"] = "SearchDormitory";
+}
+
+<h1>SearchDormitory</h1>
+
+<form class="example" action="">
+    <input type="text" placeholder="Search.." name="search">
+    <button name="btnSignIn" type="submit">ค้นหา</button>  
+</form>
+
+<a href="@Url.Action("Add","Admin")">Add</a>
+<table class="table">
+    <thead>
+        <tr>
+            <td>ชื่อหอพัก</td>
+            <td>province5</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewData.Model)
+        {
+            <tr>
+                <td>@item["name_dormitory"]</td>
+                <td>@item["name_province"]</td>
+                <td><a href="@Url.Action("Edit","Admin", new {id = item["id_dormitory"]})">Edit</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
