@@ -288,6 +288,7 @@ C:\Users\Wanida\Desktop\โปรเจคใหม่\RoomandRoommatematching\R
 C:\Users\Wanida\Desktop\โปรเจคใหม่\RoomandRoommatematching\RoomandRoommatematching\obj\Debug\netcoreapp3.1\RoomandRoommatematching.csproj.CopyComplete
 C:\Users\Wanida\Desktop\โปรเจคใหม่\RoomandRoommatematching\RoomandRoommatematching\obj\Debug\netcoreapp3.1\RoomandRoommatematching.dll
 C:\Users\Wanida\Desktop\โปรเจคใหม่\RoomandRoommatematching\RoomandRoommatematching\obj\Debug\netcoreapp3.1\RoomandRoommatematching.pdb
+<<<<<<< HEAD
 C:\Users\Wanida\Desktop\RoomandRoommate\RoomandRoommatematching\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Wanida\Desktop\RoomandRoommate\RoomandRoommatematching\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Wanida\Desktop\RoomandRoommate\RoomandRoommatematching\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -433,3 +434,5 @@ C:\Users\Wanida\Desktop\RoomandRoommate\RoomandRoommatematching\obj\Debug\netcor
 C:\Users\Wanida\Desktop\RoomandRoommate\RoomandRoommatematching\obj\Debug\netcoreapp3.1\RoomandRoommatematching.csproj.CopyComplete
 C:\Users\Wanida\Desktop\RoomandRoommate\RoomandRoommatematching\obj\Debug\netcoreapp3.1\RoomandRoommatematching.dll
 C:\Users\Wanida\Desktop\RoomandRoommate\RoomandRoommatematching\obj\Debug\netcoreapp3.1\RoomandRoommatematching.pdb
+=======
+>>>>>>> master

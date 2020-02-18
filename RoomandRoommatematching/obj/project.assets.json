@@ -6709,11 +6709,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Wanida\\Desktop\\RoomandRoommate\\RoomandRoommatematching\\RoomandRoommatematching.csproj",
       "projectName": "RoomandRoommatematching",
       "projectPath": "C:\\Users\\Wanida\\Desktop\\RoomandRoommate\\RoomandRoommatematching\\RoomandRoommatematching.csproj",
       "packagesPath": "C:\\Users\\Wanida\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Wanida\\Desktop\\RoomandRoommate\\RoomandRoommatematching\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Wanida\\Desktop\\โปรเจคใหม่\\RoomandRoommatematching\\RoomandRoommatematching\\RoomandRoommatematching.csproj",
+      "projectName": "RoomandRoommatematching",
+      "projectPath": "C:\\Users\\Wanida\\Desktop\\โปรเจคใหม่\\RoomandRoommatematching\\RoomandRoommatematching\\RoomandRoommatematching.csproj",
+      "packagesPath": "C:\\Users\\Wanida\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wanida\\Desktop\\โปรเจคใหม่\\RoomandRoommatematching\\RoomandRoommatematching\\obj\\",
+>>>>>>> master
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Wanida\\AppData\\Roaming\\NuGet\\NuGet.Config",
