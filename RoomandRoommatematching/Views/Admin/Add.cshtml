@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h1>Add</h1>
+
+<div>
+    @using (Html.BeginForm("AddNew", "Admin", FormMethod.Post))
+    {
+        <label for="name_dormitory">ชื่อหอพัก : </label>
+        <input name="name_dormitory" type="text" placeholder="" /><br />
+        <label for="address_dormitory">ที่อยู่หอพัก : </label>
+        <input name="address_dormitory" type="text" placeholder="" /><br />
+
+        <label for="price_dormitory">ราคาห้องพัก : </label>
+        <input name="price_dormitory" type="text" placeholder="" /><br />
+        <label for="telephone_dormitory">เบอร์โทรศัพท์ : </label>
+        <input name="telephone_dormitory" type="text" placeholder="" /><br />
+
+        <label for="elecbill_dormitory">ค่าไฟ : </label>
+        <input name="elecbill_dormitory" type="text" placeholder="" /><br />
+        <label for="waterbill_dormitory">ค่าน้ำ : </label>
+        <input name="waterbill_dormitory" type="text" placeholder="" /><br />
+
+        <label for="email_dormitory">email : </label>
+        <input name="email_dormitory" type="text" placeholder="" /><br />
+        <label for="insurancefree_dormitory">ค่าประกันหอ : </label>
+        <input name="insurancefree_dormitory" type="text" placeholder="" /><br />
+
+        <label for="facilities_dormitory">สิ่งอำนวยความสะดวก : </label>
+        <input name="facilities_dormitory" type="text" placeholder="" /><br />
+
+        <label for="gender_dormitory">ประเภทหอพัก (ชาย / หญิง / รวม) : </label>
+        <input name="gender_dormitory" type="text" placeholder="" /><br />
+        <label for="people_dormitory">จำนวนคนที่สามารถอยู่ได้ (ต่อ 1 ห้อง) : </label>
+        <input name="people_dormitory" type="text" placeholder="" /><br />
+
+        <label for="animal_dormitory">สามารถเลี้ยงสัตว์ได้ไหม : </label>
+        <input name="animal_dormitory" type="text" placeholder="" /><br />
+        <label for="smoke_dormitory">สามารถสูบบุหรี่ได้ไหม : </label>
+        <input name="smoke_dormitory" type="text" placeholder="" /><br />
+
+        <label for="door1win_dormitory">ระยะเวลาจากประตูเชียง 1 (วินมอไซต์) : </label>
+        <input name="door1win_dormitory" type="text" placeholder="" /><br />
+        <label for="door1walk_dormitory">ระยะเวลาจากประตูเชียง 1 (เดิน) : : </label>
+        <input name="door1walk_dormitory" type="text" placeholder="" /><br />
+
+        <label for="door2win_dormitory">ระยะเวลาจากประตูเชียง 2 (วินมอไซต์) : </label>
+        <input name="door2win_dormitory" type="text" placeholder="" /><br />
+        <label for="door2walk_dormitory">ระยะเวลาจากประตูเชียง 2 (เดิน) : </label>
+        <input name="door2walk_dormitory" type="text" placeholder="" /><br />
+
+
+
+
+        <button name="btnSignIn" type="submit">Add</button>
+        <button name="btnClear" type="reset">Clear</button>
+    }
+
+</div>

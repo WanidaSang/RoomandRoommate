@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<center>
+    <h2>เข้าสู่ระบบ</h2>
+
+    <div>
+        @using (Html.BeginForm("SignIn", "Home", FormMethod.Post))
+        {
+            <label for="uname">ชื่อผู้ใช้ (Username):</label>
+            <input name="Username" type="text" placeholder="Enter Username" /><br />
+            <label for="uname">รหัสผ่าน (Password):</label>
+            <input name="Password" type="password" placeholder="Enter Password" />
+
+            <br />
+
+            <label for="uname">ลืมรหัสผ่าน (Forgot)</label>
+            <a href="#">password?</a>
+
+            <br />
+
+            <label for="uname">สมัครสมาชิก (Register)</label>
+            <a href="@Url.Action("Register","Home")">ลงทะเบียน</a>
+
+            <br />
+
+            <button name="btnSignIn" type="submit">SignIn</button>
+            <button name="btnClear" type="reset">Clear</button>
+        }
+
+    </div>
+</center>
